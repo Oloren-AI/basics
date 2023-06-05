@@ -4,50 +4,20 @@
   "version": "0.0.0",
   "nodes": [
     {
-      "name": "Input Node",
-      "path": "./src/nodes/input/InputBase.tsx",
+      "name": "Plaintext Editor",
+      "path": "./src/nodes/editors/Editor.tsx",
       "num_inputs": 0,
       "num_outputs": 1,
-      "applet": {
-        "path": "./src/nodes/input/InputApplet.tsx"
-      }
+      "operator": "extractdata",
+      "initial_data": ""
     },
     {
-      "name": "Display Molecule",
-      "path": "./src/nodes/displaymol/Base.tsx",
+      "name": "JSON Editor",
+      "path": "./src/nodes/editors/JsonEditor.tsx",
       "num_inputs": 0,
       "num_outputs": 1,
-      "applet": {
-        "path": "./src/nodes/displaymol/Applet.tsx"
-      }
-    },
-    {
-      "name": "Draw Molecule",
-      "path": "./src/nodes/ketcher/Base.tsx",
-      "num_inputs": 0,
-      "num_outputs": 1,
-      "applet": {
-        "path": "./src/nodes/ketcher/Applet.tsx",
-        "continue": false
-      }
-    },
-    {
-      "name": "Show Protein",
-      "path": "./src/nodes/molstar/Base.tsx",
-      "initial_data": "1LOL",
-      "num_inputs": 0,
-      "num_outputs": 1,
-      "applet": {
-        "path": "./src/nodes/molstar/Applet.tsx"
-      }
-    },
-    {
-      "name": "Backend Example",
-      "path": "./src/nodes/submitapplet/Base.tsx",
-      "applet": {
-        "path": "./src/nodes/submitapplet/Applet.tsx",
-        "hidden": true
-      }
+      "operator": "extractdata",
+      "initial_data": "{}"
     }
   ]
 }
