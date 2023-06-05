@@ -99,6 +99,20 @@
       "operator": "select",
       "num_inputs": 2,
       "num_outputs": 1
+    },
+    {
+      "name": "Concat",
+      "path": "./src/nodes/dispatcher/Concat.tsx",
+      "operator": "concat",
+      "num_inputs": 2,
+      "num_outputs": 1
+    },
+    {
+      "name": "Split",
+      "path": "./src/nodes/dispatcher/Split.tsx",
+      "operator": "split",
+      "num_inputs": 1,
+      "num_outputs": 2
     }
   ]
 }
