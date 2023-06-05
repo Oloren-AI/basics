@@ -16,8 +16,89 @@
       "path": "./src/nodes/editors/JsonEditor.tsx",
       "num_inputs": 0,
       "num_outputs": 1,
-      "operator": "extractdata",
-      "initial_data": "{}"
+      "operator": "extractdata"
+    },
+    {
+      "name": "Display Text",
+      "path": "./src/nodes/display/text/Base.tsx",
+      "applet": {
+        "path": "./src/nodes/display/text/Applet.tsx"
+      },
+      "num_inputs": 1,
+      "num_outputs": 0
+    },
+    {
+      "name": "Display Image",
+      "path": "./src/nodes/display/img/Base.tsx",
+      "applet": {
+        "path": "./src/nodes/display/img/Applet.tsx"
+      },
+      "num_inputs": 1,
+      "num_outputs": 0
+    },
+    {
+      "name": "Display JSON",
+      "path": "./src/nodes/display/json/Base.tsx",
+      "applet": {
+        "path": "./src/nodes/display/json/Applet.tsx"
+      },
+      "num_inputs": 1,
+      "num_outputs": 0
+    },
+    {
+      "name": "Download File",
+      "path": "./src/nodes/download/Base.tsx",
+      "applet": {
+        "path": "./src/nodes/download/Applet.tsx"
+      },
+      "num_inputs": 1,
+      "num_outputs": 0
+    },
+    {
+      "name": "Upload File",
+      "path": "./src/nodes/upload/Base.tsx",
+      "applet": {
+        "path": "./src/nodes/upload/Applet.tsx"
+      },
+      "num_inputs": 0,
+      "num_outputs": 1
+    },
+    {
+      "name": "Upload Image",
+      "path": "./src/nodes/upload/image/Base.tsx",
+      "applet": {
+        "path": "./src/nodes/upload/image/Applet.tsx"
+      },
+      "num_inputs": 0,
+      "num_outputs": 1
+    },
+    {
+      "name": "Map",
+      "path": "./src/nodes/dispatcher/Map.tsx",
+      "initial_data": {
+        "batch_size": 4,
+        "depth": 1
+      },
+      "operator": "map",
+      "num_inputs": 2,
+      "num_outputs": 1
+    },
+    {
+      "name": "Select",
+      "path": "./src/nodes/dispatcher/SelectIn.tsx",
+      "operator": "select",
+      "num_inputs": 2,
+      "num_outputs": 1
+    },
+    {
+      "name": "Select Path",
+      "initial_data": {
+        "path": [0]
+      },
+      "path": "./src/nodes/dispatcher/SelectPath.tsx",
+      "operator": "select",
+      "num_inputs": 2,
+      "num_outputs": 1
     }
   ]
 }
