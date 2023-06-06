@@ -141,6 +141,19 @@
       "operator": "writeregisteredfile",
       "num_inputs": 1,
       "num_outputs": 1
+    },
+    {
+      "name": "TextInput",
+      "path": "./src/nodes/textinput/Base.tsx",
+      "applet": {
+        "path": "./src/nodes/textinput/Applet.tsx"
+      },
+      "num_inputs": 0,
+      "num_outputs": 1,
+      "initial_data": {
+        "value": "",
+        "placeholder": "Enter text here"
+      }
     }
   ]
 }
