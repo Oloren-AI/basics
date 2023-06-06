@@ -113,6 +113,34 @@
       "operator": "split",
       "num_inputs": 1,
       "num_outputs": 2
+    },
+    {
+      "name": "ReadRegisteredFileIn",
+      "path": "./src/nodes/dispatcher/ReadRegisteredFileIn.tsx",
+      "operator": "readregisteredfile",
+      "num_inputs": 1,
+      "num_outputs": 1
+    },
+    {
+      "name": "ReadRegisteredFilePath",
+      "path": "./src/nodes/dispatcher/ReadRegisteredFilePath.tsx",
+      "operator": "readregisteredfile",
+      "num_inputs": 0,
+      "num_outputs": 1
+    },
+    {
+      "name": "WriteRegisteredFileIn",
+      "path": "./src/nodes/dispatcher/WriteRegisteredFileIn.tsx",
+      "operator": "writeregisteredfile",
+      "num_inputs": 2,
+      "num_outputs": 1
+    },
+    {
+      "name": "WriteRegisteredFilePath",
+      "path": "./src/nodes/dispatcher/WriteRegisteredFilePath.tsx",
+      "operator": "writeregisteredfile",
+      "num_inputs": 1,
+      "num_outputs": 1
     }
   ]
 }
