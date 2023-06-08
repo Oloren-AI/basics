@@ -154,6 +154,20 @@
         "value": "",
         "placeholder": "Enter text here"
       }
+    },
+    {
+      "name": "HandlerIn",
+      "path": "./src/nodes/dispatcher/HandlerIn.tsx",
+      "operator": "handler",
+      "num_inputs": 2,
+      "num_outputs": 1
+    },
+    {
+      "name": "HandlerData",
+      "path": "./src/nodes/dispatcher/HandlerData.tsx",
+      "operator": "handler",
+      "num_inputs": 1,
+      "num_outputs": 1
     }
   ]
 }
