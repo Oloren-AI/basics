@@ -12,6 +12,14 @@
       "initial_data": ""
     },
     {
+      "name": "Python Editor",
+      "path": "./src/nodes/editors/PythonEditor.tsx",
+      "num_inputs": 0,
+      "num_outputs": 1,
+      "operator": "extractdata",
+      "initial_data": "inputs # inputs variable will be initialized\n\n# write your code here\n\noutputs = [] # outputs variable will be returned"
+    },
+    {
       "name": "JSON Editor",
       "path": "./src/nodes/editors/JsonEditor.tsx",
       "num_inputs": 0,
