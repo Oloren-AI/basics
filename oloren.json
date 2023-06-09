@@ -105,7 +105,7 @@
       },
       "path": "./src/nodes/dispatcher/SelectPath.tsx",
       "operator": "select",
-      "num_inputs": 2,
+      "num_inputs": 1,
       "num_outputs": 1
     },
     {
