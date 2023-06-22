@@ -63,6 +63,18 @@
       "num_outputs": 0
     },
     {
+      "name": "Download File As",
+      "initial_data": {
+        "filename": "filename.txt"
+      },
+      "path": "./src/nodes/downloadas/Base.tsx",
+      "applet": {
+        "path": "./src/nodes/downloadas/Applet.tsx"
+      },
+      "num_inputs": 1,
+      "num_outputs": 0
+    },
+    {
       "name": "Upload File",
       "path": "./src/nodes/upload/Base.tsx",
       "applet": {
@@ -106,6 +118,16 @@
       "path": "./src/nodes/dispatcher/SelectPath.tsx",
       "operator": "select",
       "num_inputs": 1,
+      "num_outputs": 1
+    },
+    {
+      "name": "Insert Path",
+      "initial_data": {
+        "path": [0]
+      },
+      "path": "./src/nodes/dispatcher/InsertPath.tsx",
+      "operator": "insert",
+      "num_inputs": 2,
       "num_outputs": 1
     },
     {
@@ -157,6 +179,19 @@
         "path": "./src/nodes/textinput/Applet.tsx"
       },
       "num_inputs": 0,
+      "num_outputs": 1,
+      "initial_data": {
+        "value": "",
+        "placeholder": "Enter text here"
+      }
+    },
+    {
+      "name": "StagedTextInput",
+      "path": "./src/nodes/stagedtextinput/Base.tsx",
+      "applet": {
+        "path": "./src/nodes/stagedtextinput/Applet.tsx"
+      },
+      "num_inputs": 1,
       "num_outputs": 1,
       "initial_data": {
         "value": "",
