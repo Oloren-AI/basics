@@ -104,6 +104,14 @@
       "num_outputs": 1
     },
     {
+      "name": "Seq",
+      "path": "./src/nodes/dispatcher/Seq.tsx",
+      "initial_data": {},
+      "operator": "seq",
+      "num_inputs": 2,
+      "num_outputs": 1
+    },
+    {
       "name": "Select",
       "path": "./src/nodes/dispatcher/SelectIn.tsx",
       "operator": "select",
