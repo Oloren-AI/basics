@@ -72,19 +72,16 @@
         "path": "./src/nodes/downloadas/Applet.tsx"
       },
       "num_inputs": 1,
-      "num_outputs": 0
+      "num_outputs": 1
     },
     {
       "name": "Download File As In",
-      "initial_data": {
-        "filename": "filename.txt"
-      },
       "path": "./src/nodes/downloadas/Base.tsx",
       "applet": {
         "path": "./src/nodes/downloadas/Applet.tsx"
       },
       "num_inputs": 2,
-      "num_outputs": 0
+      "num_outputs": 1
     },
     {
       "name": "Upload File",

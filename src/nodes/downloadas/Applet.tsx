@@ -15,9 +15,9 @@ function Applet({
   inputs,
   setOutputs,
   download,
-}: ApplicationProps<NodeData, [{ url: string }], []>) {
+}: ApplicationProps<NodeData, [{ url: string }], [string]>) {
   useEffect(() => {
-    setOutputs([]);
+    setOutputs(["string"]);
   }, []);
 
   return (

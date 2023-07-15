@@ -12,9 +12,9 @@ function Applet({
   inputs,
   setOutputs,
   download,
-}: ApplicationProps<string, [{ url: string }], []>) {
+}: ApplicationProps<string, [{ url: string }], [string]>) {
   useEffect(() => {
-    setOutputs([]);
+    setOutputs(["done"]);
   }, []);
 
   return (
