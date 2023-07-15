@@ -10,9 +10,10 @@ import React, { useEffect } from "react";
 function Applet({
   inputs,
   setOutputs,
-}: ApplicationProps<string, [{ url: string }], []>) {
+}: ApplicationProps<string, [{ url: string }], [string]>) {
+
   useEffect(() => {
-    setOutputs([]);
+    setOutputs(["done"]);
   }, []);
   const [load, setLoad] = React.useState(false);
 

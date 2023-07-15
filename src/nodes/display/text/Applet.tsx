@@ -15,9 +15,9 @@ function Applet({
   outputs,
   setOutputs,
   done,
-}: ApplicationProps<string, [string], []>) {
+}: ApplicationProps<string, [string], [string]>) {
   useEffect(() => {
-    setOutputs([]);
+    setOutputs(["done"]);
   }, []);
 
   return (

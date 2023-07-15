@@ -33,7 +33,7 @@
         "path": "./src/nodes/display/text/Applet.tsx"
       },
       "num_inputs": 1,
-      "num_outputs": 0
+      "num_outputs": 1
     },
     {
       "name": "Display Image",
@@ -42,7 +42,7 @@
         "path": "./src/nodes/display/img/Applet.tsx"
       },
       "num_inputs": 1,
-      "num_outputs": 0
+      "num_outputs": 1
     },
     {
       "name": "Display JSON",
@@ -51,7 +51,7 @@
         "path": "./src/nodes/display/json/Applet.tsx"
       },
       "num_inputs": 1,
-      "num_outputs": 0
+      "num_outputs": 1
     },
     {
       "name": "Download File",
