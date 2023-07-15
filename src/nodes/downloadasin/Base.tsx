@@ -9,7 +9,7 @@ export type NodeData = {
 function Base({node, setNode}: NodeProps<NodeData>) {
   return (
     <div tw="w-[400px]">
-      <Typography.Text>Download File As (file is first input, file name is the second input)</Typography.Text>
+      <Typography.Text>Download File As In (file is first input, file name is the second input)</Typography.Text>
     </div>
   );
 }
