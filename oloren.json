@@ -130,7 +130,9 @@
     {
       "name": "Select Path",
       "initial_data": {
-        "path": [0]
+        "path": [
+          0
+        ]
       },
       "path": "./src/nodes/dispatcher/SelectPath.tsx",
       "operator": "select",
@@ -140,7 +142,9 @@
     {
       "name": "Insert Path",
       "initial_data": {
-        "path": [0]
+        "path": [
+          0
+        ]
       },
       "path": "./src/nodes/dispatcher/InsertPath.tsx",
       "operator": "insert",
@@ -227,6 +231,24 @@
       "path": "./src/nodes/dispatcher/HandlerData.tsx",
       "operator": "handler",
       "num_inputs": 1,
+      "num_outputs": 1
+    },
+    {
+      "name": "User Select",
+      "path": "./src/nodes/userSelect/Base.tsx",
+      "applet": {
+        "path": "./src/nodes/userSelect/Applet.tsx"
+      },
+      "num_inputs": 1,
+      "num_outputs": 1
+    },
+    {
+      "name": "User Select Instructions",
+      "path": "./src/nodes/userselectinstructions/Base.tsx",
+      "applet": {
+        "path": "./src/nodes/userselectinstructions/Applet.tsx"
+      },
+      "num_inputs": 2,
       "num_outputs": 1
     }
   ]
