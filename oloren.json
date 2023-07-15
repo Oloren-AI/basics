@@ -76,9 +76,9 @@
     },
     {
       "name": "Download File As In",
-      "path": "./src/nodes/downloadas/Base.tsx",
+      "path": "./src/nodes/downloadasin/Base.tsx",
       "applet": {
-        "path": "./src/nodes/downloadas/Applet.tsx"
+        "path": "./src/nodes/downloadasin/Applet.tsx"
       },
       "num_inputs": 2,
       "num_outputs": 1
