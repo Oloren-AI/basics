@@ -235,9 +235,9 @@
     },
     {
       "name": "User Select",
-      "path": "./src/nodes/userSelect/Base.tsx",
+      "path": "./src/nodes/userselect/Base.tsx",
       "applet": {
-        "path": "./src/nodes/userSelect/Applet.tsx"
+        "path": "./src/nodes/userselect/Applet.tsx"
       },
       "num_inputs": 1,
       "num_outputs": 1
