@@ -65,7 +65,7 @@
     {
       "name": "Download File As",
       "initial_data": {
-        "filename": "filename.txt"
+        "initial": "filename.txt"
       },
       "path": "./src/nodes/downloadas/Base.tsx",
       "applet": {
@@ -130,9 +130,7 @@
     {
       "name": "Select Path",
       "initial_data": {
-        "path": [
-          0
-        ]
+        "path": [0]
       },
       "path": "./src/nodes/dispatcher/SelectPath.tsx",
       "operator": "select",
@@ -142,9 +140,7 @@
     {
       "name": "Insert Path",
       "initial_data": {
-        "path": [
-          0
-        ]
+        "path": [0]
       },
       "path": "./src/nodes/dispatcher/InsertPath.tsx",
       "operator": "insert",
