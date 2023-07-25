@@ -36,6 +36,15 @@
       "num_outputs": 1
     },
     {
+      "name": "Display Markdown",
+      "path": "./src/nodes/display/markdown/Base.tsx",
+      "applet": {
+        "path": "./src/nodes/display/markdown/Applet.tsx"
+      },
+      "num_inputs": 1,
+      "num_outputs": 1
+    },
+    {
       "name": "Display Image",
       "path": "./src/nodes/display/img/Base.tsx",
       "applet": {
