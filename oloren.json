@@ -1,6 +1,6 @@
 {
   "$schema": "https://oloren-ai.github.io/schema/extensionconfig.schema.json",
-  "name": "testing",
+  "name": "basics",
   "version": "0.0.0",
   "nodes": [
     {
