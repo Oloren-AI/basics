@@ -112,9 +112,9 @@
     },
     {
       "name": "Upload Files",
-      "path": "./src/nodes/upload/MultipleBase.tsx",
+      "path": "./src/nodes/upload/BaseMultiple.tsx",
       "applet": {
-        "path": "./src/nodes/upload/MultipleApplet.tsx"
+        "path": "./src/nodes/upload/AppletMultiple.tsx"
       },
       "num_inputs": 0,
       "num_outputs": 1
