@@ -111,6 +111,15 @@
       "num_outputs": 1
     },
     {
+      "name": "Upload Files",
+      "path": "./src/nodes/upload/MultipleBase.tsx",
+      "applet": {
+        "path": "./src/nodes/upload/MultipleApplet.tsx"
+      },
+      "num_inputs": 0,
+      "num_outputs": 1
+    },
+    {
       "name": "Upload Image",
       "path": "./src/nodes/upload/image/Base.tsx",
       "applet": {

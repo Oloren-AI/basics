@@ -12,7 +12,7 @@ function Base({node, setNode}: NodeProps<NodeData>) {
       <Typography.Text>Download File As</Typography.Text>
       <Input
         addonBefore="Filename to download as"
-        defaultValue="filename.txt"
+        defaultValue={node.data?.initial ? node.data.initial : "file.txt"}
         onChange={(e)=>{setNode(
           (node) => {
             return {
